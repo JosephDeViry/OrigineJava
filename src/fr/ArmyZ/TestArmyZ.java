@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import fr.ArmyZ.comportement.FaireUnePiqureDeMorphine;
+import fr.ArmyZ.personnage.Chirurgien;
 import fr.ArmyZ.personnage.Guerrier;
 import fr.ArmyZ.personnage.Medecin;
 import fr.ArmyZ.personnage.Personnage;
@@ -19,8 +20,10 @@ public class TestArmyZ {
 		List<Personnage> listeDesPersonnages=new ArrayList<Personnage>();
 		Personnage rambo= new Guerrier();
 		Personnage drQueen = new Medecin();
+		Personnage chir = new Chirurgien();
 		listeDesPersonnages.add(rambo);
 		listeDesPersonnages.add(drQueen);
+		listeDesPersonnages.add(chir);
 //		rambo.getSituationDeCombat().Combattre();
 //		rambo.getActionDeDeplacement().SeDeplacer();
 		for (Personnage personnage : listeDesPersonnages) {

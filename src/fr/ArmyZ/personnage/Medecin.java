@@ -6,7 +6,7 @@ public class Medecin extends Personnage {
 	private  Soin actionMedicale;// = new StopperLHemoragie();
 	public Medecin() {
 		super();
-
+		setSituationDeCombat(new CombatAuPistolet());
 	}
 	/**
 	 * @return le actionMédicale
