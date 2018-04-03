@@ -1,5 +1,8 @@
+/**
+ * Author : J deViry
+ * Date 2018 
+ **/
 package fr.ArmyZ;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
